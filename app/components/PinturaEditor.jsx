@@ -216,11 +216,6 @@ export default function PinturaEditorComponent() {
           ]}
         />
       </div>
-      {!!result.length && (
-        <p>
-          <img src={result} alt="" />
-        </p>
-      )}
     </div>
   )
 }
